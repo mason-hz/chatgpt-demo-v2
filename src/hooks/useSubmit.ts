@@ -59,8 +59,6 @@ const useSubmit = () => {
         4000
       );
       if (messages.length === 0) throw new Error('Message exceed max token!');
-      console.log(import.meta.env, '===import.meta.env');
-
       if (apiFree) {
         stream = await getChatCompletionStream(
           useStore.getState().apiEndpoint,
