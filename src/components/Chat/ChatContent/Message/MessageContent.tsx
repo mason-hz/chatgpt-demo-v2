@@ -23,7 +23,6 @@ import DownChevronArrow from '@icon/DownChevronArrow';
 import useSubmit from '@hooks/useSubmit';
 
 import { ChatInterface } from '@type/chat';
-
 import PopupModal from '@components/PopupModal';
 import CommandPrompt from './CommandPrompt';
 import CodeBlock from './CodeBlock';
