@@ -311,7 +311,6 @@ const EditView = ({
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.shiftKey || e.ctrlKey) return;
-
     if (e.keyCode === 13) {
       e.preventDefault();
       if (sticky) {
